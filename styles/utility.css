@@ -10,3 +10,11 @@
   height: 100vh;
 }
 
+.no-list-style {
+  list-style-type: none;
+}
+.classic-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

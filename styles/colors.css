@@ -1,11 +1,5 @@
-.bg-blue {
-  background-color: blue;
-}
-
-.bg-red {
-  background-color: red;
-}
-
-.bg-green {
-  background-color: green;
+:root {
+  --color-blue: rgb(0, 174, 255);;
+  --color-black: black;
+  --color-white: white;
 }
