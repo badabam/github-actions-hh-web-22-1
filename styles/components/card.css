@@ -1,0 +1,36 @@
+.card {
+  background-color: var(--color-blue);
+  position: relative;
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 0.5em;
+  text-align: center; 
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+  max-width: 25rem;
+  height: auto;
+}
+.card__bookmark {
+  position: absolute;
+  right: 20px;
+  top: -10px;
+  border-style: none;
+  background-color: transparent;
+  z-index: 1;
+}
+.card__show-answer {
+  list-style: none;
+  border: 1px solid black;
+  margin: 1rem;
+  background-color: black;
+  color: white;
+  width: 7em;
+}
+
+.card__tag {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+.card__tag-list {
+  padding: 0;
+  margin: 0;
+}
