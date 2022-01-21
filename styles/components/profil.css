@@ -1,0 +1,39 @@
+.profil {
+  margin: 0;
+}
+.profil__pic {
+  border: 2px solid wheat;
+  border-radius: 100%;
+  margin: 1em;
+}
+.profil__pic-name {
+  margin: 2em;
+  border-bottom: 1px solid wheat;
+}
+.profil__about-me {
+  margin: 2em;
+  border-bottom: 1px solid wheat;
+}
+.profil__skills {
+  border: 2px solid wheat;
+  border-radius: 2em;
+  margin: 1em;
+}
+.profil__tag-list {
+  margin: 2em;
+  padding: 0;
+}
+.profil__tag {
+  background-color: var(--color-dark-gray);
+  border: 2px solid black;
+  border-radius: 1em;
+  padding: 0.5em;
+}
+.profil__logout-button {
+  border: 2px solid white;
+  border-radius: 1em;
+  background-color: var(--color-dark-gray);
+  color: white;
+  height: 40px;
+  width: 100px;
+}
