@@ -10,4 +10,10 @@
   border-top-right-radius: 1em;
   margin-top: 2em;
   padding: 1.5rem;
+  z-index: 2000;
+}
+
+.nav--position {
+  border-bottom: 2px solid wheat;
+  border-radius: 10%;
 }

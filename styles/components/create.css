@@ -1,0 +1,25 @@
+.create {
+  margin: 0;
+}
+.create__display-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.create__section-wrap {
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  justify-content: center;
+  margin: 3em;
+}
+.create__submit {
+  border: 2px solid white;
+  border-radius: 1em;
+  background-color: var(--color-dark-gray);
+  color: white;
+  height: 40px;
+  width: 100px;
+}

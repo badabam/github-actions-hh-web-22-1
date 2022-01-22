@@ -1,3 +1,15 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(26, 26, 26);
+  color: wheat;
+}
+h1 {
+  border-bottom: 3px solid black;
+  background-color: var(--color-dark-gray);
+  text-align: center;
+  margin: 0;
+  padding: 0.2em;
+  
+}
