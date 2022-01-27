@@ -10,10 +10,6 @@
     "build-storybook": "build-storybook",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
-    "*.html": "htmlhint"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FaGru/quiz-app.git"
