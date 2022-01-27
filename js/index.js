@@ -1,1 +1,2 @@
-console.log(true ? 'foo' : 'bar');
+const foo = true;
+console.log(foo ? 'fooo' : 'baz');
