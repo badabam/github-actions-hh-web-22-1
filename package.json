@@ -1,8 +1,6 @@
 {
   "name": "quiz-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -12,20 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/FaGru/quiz-app.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/FaGru/quiz-app/issues"
   },
   "homepage": "https://github.com/FaGru/quiz-app#readme",
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@storybook/addon-actions": "^6.4.13",
-    "@storybook/addon-essentials": "^6.4.13",
-    "@storybook/addon-links": "^6.4.13",
-    "@storybook/html": "^6.4.13",
-    "babel-loader": "^8.2.3"
+    "@babel/core": "7.16.7",
+    "@storybook/addon-actions": "6.4.13",
+    "@storybook/addon-essentials": "6.4.13",
+    "@storybook/addon-links": "6.4.13",
+    "@storybook/html": "6.4.13",
+    "babel-loader": "8.2.3"
   },
   "dependencies": {}
 }
