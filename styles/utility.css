@@ -10,7 +10,7 @@
   height: 100vh;
 }
 
-.no-list-style[role='list'] {
+.no-list-stylerole='list' {
   list-style: none;
 }
 .classic-wrap {
